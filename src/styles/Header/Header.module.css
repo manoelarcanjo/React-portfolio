@@ -1,0 +1,37 @@
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h5 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #00EEFF;
+  margin: 0;
+}
+.logo p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.logo img {
+  width: 8px;
+  margin-right: 1rem;
+}
+
+.nav a {
+  margin: 0 1rem;
+}
+.nav .activeLink {
+  color: #00EEFF; /* Altere para a cor desejada */
+  font-weight: bold; /* Altere para o estilo desejado */
+}/*# sourceMappingURL=Header.module.css.map */

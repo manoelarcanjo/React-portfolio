@@ -1,0 +1,14 @@
+@import '../partials/colors';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-weight: 100;
+
+    img {
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+}

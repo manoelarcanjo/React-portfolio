@@ -1,0 +1,97 @@
+@import '../partials/colors';
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5rem;    
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+
+
+    h2,h3 {
+        color: $white;
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+
+    h1 {
+        color: $primary;
+        font-size: 3.6rem;
+        font-weight: bolder;
+    }
+
+    .p {
+        font-size: 1.1rem;
+        font-weight: 200;
+        color: $white;
+        margin: 2rem 0;
+    }
+
+    .icons {
+        ul {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+
+            svg {
+                font-size: 2.4rem;
+                color: $primary;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+
+            svg:hover,
+            li:hover {
+                color: $white;
+                border: none;
+                transform: scale(1.1);
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: $primary solid 3px;
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+            }
+        }
+    }
+    
+}
+
+.img {
+    width: 40%;
+
+    img {
+        width: 100%;
+        animation: floatAnimation 3s ease-in-out infinite;
+    }
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Ajuste conforme necessário */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+

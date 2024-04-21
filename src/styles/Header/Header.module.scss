@@ -1,0 +1,52 @@
+@import '../partials/colors';
+
+.header {
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 5rem;
+        color: $white;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    h5 {
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color: $primary;
+        margin: 0;
+    }
+
+   
+    p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+
+    img {
+        width: 8px;
+        margin-right: 1rem;
+    }
+}
+
+.nav {
+
+    a {
+        margin: 0 1rem;
+    }
+
+    .activeLink {
+        color: $primary; /* Altere para a cor desejada */
+        font-weight: bold; /* Altere para o estilo desejado */
+    }
+}
+
