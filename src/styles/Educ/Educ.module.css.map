@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Educ.module.css"}
+{"version":3,"sources":["Educ.module.scss","Educ.module.css","../partials/_colors.scss"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,kBAAA;EACA,aAAA;EACA,UAAA;ACDJ;ADGI;EACI,cEVD;ADSP;ADII;EACI,iBAAA;EACA,mBAAA;EACA,gBAAA;ACFR;ADKI;EACI,iBAAA;EACA,mBAAA;EACA,kBAAA;ACHR;ADMI;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;ACJR","file":"Educ.module.css"}

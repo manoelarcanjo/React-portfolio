@@ -1,1 +1,26 @@
-/*# sourceMappingURL=Educ.module.css.map */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  width: 33%;
+}
+.card h3, .card h4, .card p {
+  color: #ffffff;
+}
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+.card h4 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+.card p {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=Educ.module.css.map */

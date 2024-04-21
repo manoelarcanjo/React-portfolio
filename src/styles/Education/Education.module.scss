@@ -1,4 +1,13 @@
 .educ {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.education {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
 }
