@@ -1,0 +1,24 @@
+.tech {
+    padding: 2rem;
+
+    img {
+        width: 8rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    img:hover {
+        animation: floatAnimation 3s ease-in-out infinite;
+    }
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

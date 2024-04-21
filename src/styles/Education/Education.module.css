@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .educ {
   display: flex;
   align-items: center;
@@ -9,5 +10,21 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
   margin-top: 1rem;
+}
+.education img:hover {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Ajuste conforme necessário */
+  }
+  100% {
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=Education.module.css.map */

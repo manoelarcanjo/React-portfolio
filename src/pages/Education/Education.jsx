@@ -18,7 +18,7 @@ function Education () {
                 <div className={styles.education}>
                     <Educ img={uninassau} curso="Análise e Desenvolvimento de Sistemas" escola="Uninassau" ano={'2024 - 2025'}/>
                     <Educ img={vainaweb} curso="Desenvolvimento Front-end" escola="Vai na Web" ano={'2023 - 2024'}/>
-                    <Educ img={dnc} curso="Formação em Tecnologia" escola="Uninassau" ano={'2024 - 2025'}/>
+                    <Educ img={dnc} curso="Formação em Tecnologia" escola="Uninassau" ano={'2023 - 2024'}/>
                 </div>
             </div>
 
