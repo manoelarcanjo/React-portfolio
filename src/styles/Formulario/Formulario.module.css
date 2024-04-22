@@ -1,0 +1,32 @@
+form {
+  width: 80%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  margin-bottom: 1rem;
+  width: 100vh;
+  text-align: center;
+}
+form div input[type=text],
+form div input[type=tel],
+form div input[type=email],
+form div textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EAEAEA;
+  color: #000000;
+  font-size: 16px;
+}
+form div input[type=text]::-moz-placeholder, form div input[type=tel]::-moz-placeholder, form div input[type=email]::-moz-placeholder, form div textarea::-moz-placeholder {
+  color: #000000;
+}
+form div input[type=text]::placeholder,
+form div input[type=tel]::placeholder,
+form div input[type=email]::placeholder,
+form div textarea::placeholder {
+  color: #000000;
+}/*# sourceMappingURL=Formulario.module.css.map */
